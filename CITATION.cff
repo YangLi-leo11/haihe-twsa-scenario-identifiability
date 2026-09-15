@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the associated manuscript and archived release."
+title: "Code for Climate scenarios cannot uniquely determine century-scale terrestrial water storage"
+type: software
+authors:
+  - family-names: "Li"
+    given-names: "Yang"
+  - family-names: "Liu"
+    given-names: "Qi"
+  - family-names: "Wu"
+    given-names: "Xiaohui"
+  - family-names: "Pang"
+    given-names: "Qipei"
+  - family-names: "Liu"
+    given-names: "Sulan"
+  - family-names: "Gu"
+    given-names: "Xihui"
+  - family-names: "Wu"
+    given-names: "Yunlong"
+version: "1.0.0"
+date-released: "2026-09-15"
+license: MIT
+abstract: "Publication code and compact processed inputs for the associated manuscript."

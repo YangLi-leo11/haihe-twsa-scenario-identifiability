@@ -1,0 +1,106 @@
+{
+  "paper_title": "Climate scenarios cannot uniquely determine century-scale terrestrial water storage",
+  "release_version": "1.0.0",
+  "gru": {
+    "training_period": [
+      "2005-02",
+      "2020-10"
+    ],
+    "validation_period": [
+      "2020-11",
+      "2025-10"
+    ],
+    "initial_observed_state": "2020-10",
+    "sequence_rows": 13,
+    "layers": 1,
+    "hidden_units": 24,
+    "head": [
+      "Linear(24,24)",
+      "ReLU",
+      "Linear(24,1)"
+    ],
+    "loss": "Huber",
+    "optimizer": "AdamW",
+    "learning_rate": 0.006,
+    "weight_decay": 0.02,
+    "epochs": 90,
+    "seed": 119,
+    "validation_n": 60,
+    "validation_metrics": {
+      "pearson_r": 0.6913814094676672,
+      "rmse_mm": 54.00001057948731,
+      "nse": 0.28551246204931746
+    },
+    "display_metrics": {
+      "pearson_r": 0.691,
+      "rmse_mm": 54.0,
+      "nse": 0.286
+    },
+    "validation_source": "bundled strict recursive validation prediction table"
+  },
+  "analogue": {
+    "distance": "standardized Euclidean",
+    "calendar_features": [
+      "sin(month)",
+      "cos(month)"
+    ],
+    "weighting": "inverse distance",
+    "extra_feature_weighting": false,
+    "exponential_decay": false,
+    "full_pool": [
+      "2009-12",
+      "2025-10"
+    ],
+    "full_pool_q": 12,
+    "historical_comparison": [
+      "2008-01",
+      "2018-12"
+    ],
+    "candidate_rule": "past-only; no self-match"
+  },
+  "groundwater": {
+    "period": [
+      "2019-01",
+      "2023-12"
+    ],
+    "wells": 493,
+    "interpolation": false,
+    "grid_degrees": 0.25,
+    "bootstrap_block_months": 6,
+    "bootstrap_block_sampling": "paired overlapping non-circular moving blocks; starts 0 through n-block",
+    "bootstrap_repetitions": 2000,
+    "bootstrap_seed": 120,
+    "bootstrap_interval": "empirical 2.5th and 97.5th percentiles; NumPy linear interpolation",
+    "role": "independent consistency check only"
+  },
+  "cmip6": {
+    "models": [
+      "BCC-CSM2-MR",
+      "CMCC-ESM2",
+      "CMCC-CM2-SR5",
+      "TaiESM1",
+      "MIROC6",
+      "CanESM5"
+    ],
+    "scenarios": [
+      "ssp126",
+      "ssp245",
+      "ssp370",
+      "ssp585"
+    ],
+    "member": "r1i1p1f1",
+    "variables": [
+      "pr",
+      "tas",
+      "evspsbl",
+      "mrro"
+    ]
+  },
+  "future_start": "2026-01",
+  "future_end": "2100-12",
+  "target_years": [
+    2050,
+    2075,
+    2100
+  ]
+}

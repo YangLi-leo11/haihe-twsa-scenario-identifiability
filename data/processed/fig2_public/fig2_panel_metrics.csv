@@ -1,0 +1,15 @@
+panel,metric,manuscript_expected,recalculated,verification_basis,status
+a,Pearson R,0.691,0.691381409467667,bundled strict recursive validation series,PASS
+a,RMSE mm,54.0,54.00001057948731,bundled strict recursive validation series,PASS
+a,NSE,0.286,0.285512462049317,bundled strict recursive validation series,PASS
+b,MA12 Pearson R,0.978,0.9780976589323735,calculated from selected panel-b table,PASS
+b,MA12 RMSE mm,10.309,10.308635292915763,calculated from selected panel-b table,PASS
+b,MA12 NSE,0.901,0.9012105138978542,calculated from selected panel-b table,PASS
+c,Pearson R,0.861,0.8612054546547325,restricted-input verification,PASS
+c,Spearman rho,0.834,0.8336204501250348,restricted-input verification,PASS
+c,n,60.0,60.0,restricted-input verification,PASS
+d,valid cells,127.0,127.0,summary retained from restricted-input verification,PASS
+d,median Pearson R,0.619,0.6190342211844322,summary retained from restricted-input verification,PASS
+d,cells R>=0.50,76.0,76.0,summary retained from restricted-input verification,PASS
+d,cells R>=0.75,49.0,49.0,summary retained from restricted-input verification,PASS
+

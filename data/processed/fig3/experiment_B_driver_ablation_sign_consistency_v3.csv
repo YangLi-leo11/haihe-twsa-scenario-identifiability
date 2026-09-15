@@ -1,0 +1,9 @@
+﻿driver_group,driver_label,forecast_horizon_months,valid_case_count,R_degradation_count,RMSE_increase_count,joint_degradation_count
+P,Precipitation (P),60,5,3,3,3
+T,Temperature (T),60,5,5,5,5
+ET,Evapotranspiration (ET),60,5,0,1,0
+Q,Runoff (Q),60,5,4,5,4
+P,Precipitation (P),84,5,3,3,3
+T,Temperature (T),84,5,5,5,5
+ET,Evapotranspiration (ET),84,5,1,0,0
+Q,Runoff (Q),84,5,4,3,2

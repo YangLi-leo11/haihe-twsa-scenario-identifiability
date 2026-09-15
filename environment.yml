@@ -1,0 +1,19 @@
+name: cee-publication-code
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy=2.1
+  - pandas=2.2
+  - scipy=1.14
+  - matplotlib=3.9
+  - seaborn=0.13
+  - scikit-learn=1.5
+  - pytorch=2.4
+  - geopandas=1.0
+  - rasterio=1.4
+  - xarray=2024.9
+  - netcdf4=1.7
+  - pillow=10.4
+  - pyyaml=6.0
+  - pip

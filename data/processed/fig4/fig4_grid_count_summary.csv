@@ -1,0 +1,13 @@
+scenario,scenario_label,category,count,expected_count,count_match,percentage,total_cells
+ssp126,SSP1-2.6,robust drying (>=5/6),27,27,True,5.960264900662252,453
+ssp126,SSP1-2.6,mixed sign,410,410,True,90.50772626931567,453
+ssp126,SSP1-2.6,robust wetting (>=5/6),16,16,True,3.532008830022075,453
+ssp245,SSP2-4.5,robust drying (>=5/6),81,81,True,17.880794701986755,453
+ssp245,SSP2-4.5,mixed sign,365,365,True,80.57395143487858,453
+ssp245,SSP2-4.5,robust wetting (>=5/6),7,7,True,1.5452538631346577,453
+ssp370,SSP3-7.0,robust drying (>=5/6),17,17,True,3.752759381898455,453
+ssp370,SSP3-7.0,mixed sign,425,425,True,93.81898454746137,453
+ssp370,SSP3-7.0,robust wetting (>=5/6),11,11,True,2.4282560706401766,453
+ssp585,SSP5-8.5,robust drying (>=5/6),26,26,True,5.739514348785872,453
+ssp585,SSP5-8.5,mixed sign,427,427,True,94.26048565121413,453
+ssp585,SSP5-8.5,robust wetting (>=5/6),0,0,True,0.0,453

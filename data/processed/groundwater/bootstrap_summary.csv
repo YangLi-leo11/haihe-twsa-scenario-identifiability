@@ -1,0 +1,2 @@
+block_length,replicates,seed,implementation,interval_definition,reproduced_lower,reproduced_upper
+6,2000,120,paired non-circular overlapping moving blocks; starts 0 through n-block,empirical 2.5/97.5 percentiles; NumPy linear,0.7593292361469042,0.9212987556052404

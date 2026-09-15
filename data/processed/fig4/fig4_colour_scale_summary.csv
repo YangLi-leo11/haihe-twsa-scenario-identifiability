@@ -1,0 +1,2 @@
+vmin,vmax,center,range_method,clipped_grid_cells,common_scale_pass
+-6.234330774606591,6.234330774606591,0.0,full joint maximum absolute value across all four SSP grids,0,True

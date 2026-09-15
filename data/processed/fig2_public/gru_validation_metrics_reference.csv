@@ -1,0 +1,6 @@
+metric,value,unit,protocol_note
+Validation period,2020-11 to 2025-10,,60-month strict forecast-from-origin validation
+Sample size,60,months,No observed TWSA updating inside the validation horizon
+Pearson R,0.691381409467667,,strict recursive validation
+RMSE,54.000010579487309,mm,strict recursive validation
+NSE,0.285512462049317,,strict recursive validation
